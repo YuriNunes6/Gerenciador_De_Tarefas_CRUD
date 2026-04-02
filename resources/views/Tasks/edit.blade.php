@@ -1,18 +1,9 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Editar Tarefa | TaskFlow</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <style>
-        body { font-family: 'Inter', sans-serif; }
-    </style>
-</head>
-<body class="bg-gray-50 text-gray-800">
+@extends('layouts.app')
 
-    <div class="max-w-4xl mx-auto py-12 px-4">
+@section('title', 'Dashboard')
+
+@section('content')
+<div class="max-w-4xl mx-auto py-12 px-4">
         <h1 class="text-2xl font-bold text-gray-700 mb-6">Editar Tarefa</h1>
 
         @if($errors->any())
@@ -76,10 +67,9 @@
                 <a href="{{ route('tasks.index') }}"
                     class="px-4 py-2 rounded-lg bg-gray-200 hover:bg-gray-300 text-gray-700">Cancelar</a>
                 <button type="submit"
-                    class="px-4 py-2 rounded-lg bg-indigo-600 hover:bg-indigo-700 text-white font-medium">Atualizar</button>
+                    class="px-4 py-2 rounded-lg bg-[#FF5C00] text-white font-medium">Atualizar</button>
             </div>
         </form>
     </div>
-
-</body>
 </html>
+@endsection

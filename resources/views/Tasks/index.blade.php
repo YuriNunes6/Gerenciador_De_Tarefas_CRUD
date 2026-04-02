@@ -1,13 +1,8 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <title>Minhas Tarefas</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-</head>
+@extends('layouts.app')
 
-<body class="bg-gray-50 text-gray-800">
+@section('title', 'Dashboard')
 
+@section('content')
 <div class="max-w-6xl mx-auto py-10 px-4">
 
     <!-- HEADER -->
@@ -142,6 +137,5 @@
     @endif
 
 </div>
-
-</body>
 </html>
+@endsection

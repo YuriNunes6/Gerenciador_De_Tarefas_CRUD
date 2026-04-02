@@ -18,11 +18,11 @@
 
     <div class="min-h-screen flex flex-col md:flex-row">
         
-        <div class="hidden md:flex md:w-1/2 bg-indigo-600 p-12 flex-col justify-between text-white relative overflow-hidden">
+        <div class="hidden md:flex md:w-1/2 bg-[#FF5C00] p-12 flex-col justify-between text-white relative overflow-hidden">
             <div class="relative z-10">
                 <div class="flex items-center gap-2 mb-8">
                     <div class="w-10 h-10 bg-white rounded-lg flex items-center justify-center">
-                        <svg class="w-6 h-6 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"></path></svg>
+                        <svg class="w-6 h-6 text-[#FF5C00]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"></path></svg>
                     </div>
                     <span class="text-2xl font-bold tracking-tight">TaskFlow</span>
                 </div>
@@ -51,27 +51,27 @@
                     <div>
                         <label for="email" class="block text-sm font-medium text-slate-700 mb-1">E-mail</label>
                         <input type="email" id="email" name="email" required 
-                            class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-500 transition-all" 
+                            class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-[#FF5C00] transition-all" 
                             placeholder="seu@email.com">
                     </div>
 
                     <div>
                         <div class="flex justify-between mb-1">
                             <label for="password" class="text-sm font-medium text-slate-700">Senha</label>
-                            <a href="#" class="text-sm font-semibold text-indigo-600 hover:text-indigo-500">Esqueceu a senha?</a>
+                            <a href="#" class="text-sm font-semibold text-[#FF5C00] hover:text-[#FF5C00]">Esqueceu a senha?</a>
                         </div>
                         <input type="password" id="password" name="password" required 
-                            class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-500 transition-all" 
+                            class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-[#FF5C00] transition-all" 
                             placeholder="••••••••">
                     </div>
 
                     <div class="flex items-center">
-                        <input type="checkbox" id="remember" name="remember" class="w-4 h-4 text-indigo-600 border-slate-300 rounded focus:ring-indigo-500">
+                        <input type="checkbox" id="remember" name="remember" class="w-4 h-4 text-indigo-600 border-slate-300 rounded focus:ring-[#FF5C00]">
                         <label for="remember" class="ml-2 text-sm text-slate-600 font-medium">Lembrar por 30 dias</label>
                     </div>
 
                     <button type="submit" 
-                        class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 rounded-xl transition-all shadow-lg shadow-indigo-200 active:scale-[0.98]">
+                        class="w-full bg-[#FF5C00] hover:bg-[#FF5C00] text-white font-semibold py-3 rounded-xl transition-all shadow-lg shadow-indigo-200 active:scale-[0.98]">
                         Entrar na plataforma
                     </button>
                 </form>
@@ -79,7 +79,7 @@
                 <div class="mt-8 pt-8 border-t border-slate-100">
                     <p class="text-center text-slate-600 text-sm">
                         Não tem uma conta? 
-                        <a href="{{ route('register') }}" class="text-indigo-600 font-bold hover:underline">Criar conta gratuita</a>
+                        <a href="{{ route('register') }}" class="text-[#FF5C00] font-bold hover:underline">Criar conta gratuita</a>
                     </p>
                 </div>
             </div>

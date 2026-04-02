@@ -14,11 +14,11 @@
 
 <div class="min-h-screen flex flex-col md:flex-row-reverse">
     
-    <div class="hidden md:flex md:w-5/12 bg-indigo-600 p-12 flex-col justify-between text-white relative overflow-hidden">
+    <div class="hidden md:flex md:w-5/12 bg-[#FF5C00] p-12 flex-col justify-between text-white relative overflow-hidden">
         <div class="relative z-10">
             <div class="flex items-center gap-2 mb-8">
                 <div class="w-10 h-10 bg-white rounded-lg flex items-center justify-center shadow-lg">
-                    <svg class="w-6 h-6 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path></svg>
+                    <svg class="w-6 h-6 text-[#FF5C00]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path></svg>
                 </div>
                 <span class="text-2xl font-bold tracking-tight">TaskFlow</span>
             </div>
@@ -42,8 +42,8 @@
                     <div>
                         <label for="name" class="block text-sm font-semibold text-slate-700 mb-1">Nome</label>
                         <input type="text" id="name" name="name" required 
-                            class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-4 focus:ring-indigo-500/10 focus:border-indigo-500 transition-all placeholder-slate-400" 
-                            placeholder="João">
+                            class="w-[445px] px-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-4 focus:ring-indigo-500/10 focus:border-indigo-500 transition-all placeholder-slate-400" 
+                            placeholder="Ex: João Freitas">
                     </div>
                 </div>
 
@@ -58,7 +58,7 @@
                     <label for="password" class="block text-sm font-semibold text-slate-700 mb-1">Senha</label>
                     <input type="password" id="password" name="password" required 
                         class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-4 focus:ring-indigo-500/10 focus:border-indigo-500 transition-all placeholder-slate-400" 
-                        placeholder="Mínimo 8 caracteres">
+                        placeholder="Mínimo 6 caracteres">
                     <p class="mt-2 text-xs text-slate-400 italic font-medium tracking-tight">Dica: Use letras, números e símbolos.</p>
                 </div>
 
@@ -72,20 +72,20 @@
                 <div class="flex items-start">
                     <input type="checkbox" id="terms" name="terms" required class="mt-1 w-4 h-4 text-indigo-600 border-slate-300 rounded focus:ring-indigo-500">
                     <label for="terms" class="ml-2 text-sm text-slate-600 leading-tight">
-                        Eu aceito os <a href="#" class="text-indigo-600 font-bold hover:underline">Termos de Serviço</a> e a <a href="#" class="text-indigo-600 font-bold hover:underline">Política de Privacidade</a>.
+                        Eu aceito os <a href="#" class="text-[#000000] font-bold hover:underline">Termos de Serviço</a> e a <a href="#" class="text-[#000000] font-bold hover:underline">Política de Privacidade</a>.
                     </label>
                 </div>
 
                 <button type="submit" 
-                    class="w-full bg-slate-900 hover:bg-black text-white font-bold py-4 rounded-xl transition-all shadow-xl hover:shadow-indigo-100 active:scale-[0.98] mt-2">
+                    class="w-full bg-[#FF5C00] hover:bg-[#FF5C00] text-white font-bold py-4 rounded-xl transition-all shadow-xl hover:shadow-indigo-100 active:scale-[0.98] mt-2">
                     Criar minha conta gratuita
                 </button>
             </form>
 
             <div class="mt-8 pt-6 border-t border-slate-100 text-center">
-                <p class="text-slate-600 text-sm font-medium">
+                <p class="text-[#000000] text-sm font-medium">
                     Já possui uma conta no TaskFlow? 
-                    <a href="{{ route('login') }}" class="text-indigo-600 font-bold hover:underline ml-1">Fazer Login</a>
+                    <a href="{{ route('login') }}" class="text-[#000000] font-bold hover:underline ml-1">Fazer Login</a>
                 </p>
             </div>
         </div>
