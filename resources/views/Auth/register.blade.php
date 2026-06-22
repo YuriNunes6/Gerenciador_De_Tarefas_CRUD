@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro | TaskFlow</title>
+    <title>Cadastro | Nome do Sistema</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
@@ -14,13 +14,13 @@
 
 <div class="min-h-screen flex flex-col md:flex-row-reverse">
     
-    <div class="hidden md:flex md:w-5/12 bg-[#FF5C00] p-12 flex-col justify-between text-white relative overflow-hidden">
+    <div class="hidden md:flex md:w-5/12 bg-[#0A0A0A] p-12 flex-col justify-between text-white relative overflow-hidden">
         <div class="relative z-10">
             <div class="flex items-center gap-2 mb-8">
                 <div class="w-10 h-10 bg-white rounded-lg flex items-center justify-center shadow-lg">
-                    <svg class="w-6 h-6 text-[#FF5C00]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path></svg>
+                    <svg class="w-6 h-6 text-[#0A0A0A]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path></svg>
                 </div>
-                <span class="text-2xl font-bold tracking-tight">TaskFlow</span>
+                <span class="text-2xl font-bold tracking-tight">Nome do Sistema</span>
             </div>
             <h1 class="text-5xl font-extrabold leading-tight mb-4 text-white">Comece sua jornada hoje.</h1>
             <p class="text-indigo-100 text-lg max-w-sm">Junte-se a milhares de usuários que transformaram seu caos diário em clareza absoluta.</p>
@@ -77,14 +77,14 @@
                 </div>
 
                 <button type="submit" 
-                    class="w-full bg-[#FF5C00] hover:bg-[#FF5C00] text-white font-bold py-4 rounded-xl transition-all shadow-xl hover:shadow-indigo-100 active:scale-[0.98] mt-2">
+                    class="w-full bg-[#0A0A0A] hover:bg-[#0A0A0A] text-white font-bold py-4 rounded-xl transition-all shadow-xl hover:shadow-indigo-100 active:scale-[0.98] mt-2">
                     Criar minha conta gratuita
                 </button>
             </form>
 
             <div class="mt-8 pt-6 border-t border-slate-100 text-center">
                 <p class="text-[#000000] text-sm font-medium">
-                    Já possui uma conta no TaskFlow? 
+                    Já possui uma conta no "Nome do Sistema"? 
                     <a href="{{ route('login') }}" class="text-[#000000] font-bold hover:underline ml-1">Fazer Login</a>
                 </p>
             </div>

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login | TaskFlow</title>
+    <title>Login | Nome do Sistema</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
@@ -18,13 +18,13 @@
 
     <div class="min-h-screen flex flex-col md:flex-row">
         
-        <div class="hidden md:flex md:w-1/2 bg-[#FF5C00] p-12 flex-col justify-between text-white relative overflow-hidden">
+        <div class="hidden md:flex md:w-1/2 bg-[#0A0A0A] p-12 flex-col justify-between text-white relative overflow-hidden">
             <div class="relative z-10">
                 <div class="flex items-center gap-2 mb-8">
                     <div class="w-10 h-10 bg-white rounded-lg flex items-center justify-center">
-                        <svg class="w-6 h-6 text-[#FF5C00]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"></path></svg>
+                        <svg class="w-6 h-6 text-[#0A0A0A]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"></path></svg>
                     </div>
-                    <span class="text-2xl font-bold tracking-tight">TaskFlow</span>
+                    <span class="text-2xl font-bold tracking-tight">Nome do Sistema</span>
                 </div>
                 <h1 class="text-5xl font-extrabold leading-tight mb-4">Gerencie sua rotina <br> de forma inteligente.</h1>
                 <p class="text-indigo-100 text-lg max-w-md">Onde a produtividade encontra a simplicidade. Organize suas tarefas e conquiste seus objetivos diários.</p>
@@ -34,7 +34,7 @@
             <div class="absolute top-1/2 -right-20 w-80 h-80 bg-purple-500 rounded-full mix-blend-multiply filter blur-3xl opacity-30"></div>
 
             <div class="relative z-10">
-                <p class="text-sm text-indigo-200">© 2026 TaskFlow Inc. Todos os direitos reservados.</p>
+                <p class="text-sm text-indigo-200">© 2026 (Nome do Sistema) Inc. Todos os direitos reservados.</p>
             </div>
         </div>
 
@@ -58,7 +58,7 @@
                     <div>
                         <div class="flex justify-between mb-1">
                             <label for="password" class="text-sm font-medium text-slate-700">Senha</label>
-                            <a href="#" class="text-sm font-semibold text-[#FF5C00] hover:text-[#FF5C00]">Esqueceu a senha?</a>
+                            <a href="#" class="text-sm font-semibold text-[#0A0A0A] hover:text-[#0A0A0A]">Esqueceu a senha?</a>
                         </div>
                         <input type="password" id="password" name="password" required 
                             class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-[#FF5C00] transition-all" 
@@ -71,7 +71,7 @@
                     </div>
 
                     <button type="submit" 
-                        class="w-full bg-[#FF5C00] hover:bg-[#FF5C00] text-white font-semibold py-3 rounded-xl transition-all shadow-lg shadow-indigo-200 active:scale-[0.98]">
+                        class="w-full bg-[#0A0A0A] hover:bg-[#0A0A0A] text-white font-semibold py-3 rounded-xl transition-all shadow-lg shadow-indigo-200 active:scale-[0.98]">
                         Entrar na plataforma
                     </button>
                 </form>
@@ -79,7 +79,7 @@
                 <div class="mt-8 pt-8 border-t border-slate-100">
                     <p class="text-center text-slate-600 text-sm">
                         Não tem uma conta? 
-                        <a href="{{ route('register') }}" class="text-[#FF5C00] font-bold hover:underline">Criar conta gratuita</a>
+                        <a href="{{ route('register') }}" class="text-[#0A0A0A] font-bold hover:underline">Criar conta gratuita</a>
                     </p>
                 </div>
             </div>

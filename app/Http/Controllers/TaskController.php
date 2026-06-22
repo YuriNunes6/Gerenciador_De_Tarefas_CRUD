@@ -40,7 +40,7 @@ class TaskController extends Controller
             ->where('status', 'concluida')
             ->count();
 
-        return view('user.dashboard', compact('tasks', 'total', 'pendentes', 'concluidas'));
+        return view('tasks.index', compact('tasks', 'total', 'pendentes', 'concluidas'));
     }
 
     public function create()
